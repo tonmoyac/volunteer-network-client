@@ -1,0 +1,29 @@
+.card {
+   width: 18rem !important;
+    padding: 10px;
+    border: none;
+}
+ .card .card-body {
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content:center;
+    height: 15vh;
+     margin-top: -14vh;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     background: #000;
+     text-align: center;
+ }
+ .card .card-body h5 {
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    transition: all 0.3s;
+ }
+ .card .card-body h5:hover{
+    color: #000;
+ }
+ .row a {
+    text-decoration: none; 
+ }

@@ -1,0 +1,47 @@
+.register-page {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+.register-page .logo{
+    height: 60px;
+    margin: 5vh 0 3vh;
+}
+.register-page .registration-block {
+    width: 35vw;
+    height: 70vh;
+    background: #fff;
+    border: 1px solid #ABABAB;
+}
+.register-page .registration-block h4 {
+    text-align: center;
+    font-weight: bold;
+}
+.register-page .registration-block form {
+  height: 90%;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.register-page .registration-block form input {
+  outline: none;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid silver;
+}
+
+.register-page .registration-block form .input-data {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.registration-block form .input-data label {
+  position: relative;
+  color: #000;
+  font-weight: bold;
+}
+.error {
+  color: red;
+}

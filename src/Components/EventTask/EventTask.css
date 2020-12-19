@@ -1,0 +1,15 @@
+.task-container {
+    display: flex;
+    padding: 15vh 5vw 0;
+    
+}
+.task-container .event-card {
+    display: flex;
+    background-color:#fff;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.205);
+}
+.task-container .event-card img {
+    width: 120px;
+    margin-right: 25px;
+}

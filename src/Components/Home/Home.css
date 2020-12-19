@@ -1,0 +1,15 @@
+body {
+    background-color: #F8FAFC;
+}
+header {
+    text-align: center;
+    padding-top: 5vh;
+}
+header h1 {
+    font-weight: bold;
+}
+header .input-group {
+    margin: 0 auto;
+    padding-top: 2vh;
+    width: 35vw;
+}

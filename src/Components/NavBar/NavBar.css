@@ -1,0 +1,13 @@
+.navbar {
+    padding: 0 8vw;
+}
+.navbar .nav-logo{
+    height: 60px;
+}
+.navbar button {
+    margin-left: 10px;
+}
+.name {
+    color: #FF7044;
+    margin-top: 9px;
+}
